@@ -168,7 +168,7 @@ $ npm run dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### [](https://github.com/KarlaSilvaEng/biblioteca-online#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### [](https://github.com/KarlaSilvaEng/biblioteca-online#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/) 
 
 -   **[Express](https://expressjs.com/)**
 
