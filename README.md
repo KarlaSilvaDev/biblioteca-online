@@ -20,11 +20,6 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/cubos-academy/academy-template-readme-projects?style=social">
   </a>
    
-</p>
-<h1 align="center">
-    <img alt="Cubos Academy" title="#CubosAcademy" src="assets/Capa GItHub.png" />
-</h1>
-
 <h4 align="center"> 
 	🚧 Biblioteca Online 🚧
 </h4>
@@ -36,21 +31,17 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
+<a href="#-entidade">Entidade</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
 </p>
 
-
+---
 ## 💻 Sobre o projeto
 
 O projeto Biblioteca Online foi desenvolvido após a aula de API REST do curso de Javascript com foco em backend da [Cubos Academy](https://cubos.academy/).
 
 ---
-
 ## ⚙️ Funcionalidades
 
 - [x] Consultar Coleção de Livros
@@ -60,10 +51,12 @@ O projeto Biblioteca Online foi desenvolvido após a aula de API REST do curso d
 - [x] Alterar um Livro Existente
 - [x] Remover Livros
 
+---
 ## 📘 Entidade
 - [x] Livro 
       - Propriedades: id, titulo, autor, ano e numPaginas
 
+---
 ## 🛣️ Como executar o projeto
 
 Este projeto consiste apenas no Backende e não trabalha com banco de Dados no momento.
@@ -104,7 +97,9 @@ $ npm run dev
 - Resposta: Listagem da coleção completa de livros
 - Exemplo:
   - URL Completa: http://localhost:3000/livros
-  - Resposta: ![Resposta](assets/GET%20-%20Listar%20Livros%20-%20Resposta.png)
+  - Resposta:
+    
+    ![Resposta](assets/GET%20-%20Listar%20Livros%20-%20Resposta.png)
     
 #### Consultar um Livro através do ID
 - Método: GET
@@ -112,7 +107,9 @@ $ npm run dev
 - Resposta: Retorna o objeto livro que corresponde ao id fornecido
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/2
-  - Resposta: ![Resposta](assets/GET%20-%20Consultar%20Livro%20por%20ID%20-%20Resposta.png)
+  - Resposta:
+    
+    ![Resposta](assets/GET%20-%20Consultar%20Livro%20por%20ID%20-%20Resposta.png)
  
 #### Adicionar um Novo Livro
 - Método: POST
@@ -121,8 +118,12 @@ $ npm run dev
 - Resposta: Retorna o objeto livro criado.
 - Exemplo:
   - URL Completa: http://localhost:3000/livros
-  - Corpo da Requisição: ![Corpo da Requisição](assets/POST%20-%20Adicionar%20Livro%20-%20Corpo%20da%20Requisição.png)
-  - Resposta: ![Resposta](assets/POST%20-%20Adicionar%20Livro%20-%20Resposta.png)
+  - Corpo da Requisição:
+    
+    [Corpo da Requisição](assets/POST%20-%20Adicionar%20Livro%20-%20Corpo%20da%20Requisição.png)
+  - Resposta:
+    
+    ![Resposta](assets/POST%20-%20Adicionar%20Livro%20-%20Resposta.png)
  
 #### Substituir um Livro Existente
 - Método: PUT
@@ -131,8 +132,12 @@ $ npm run dev
 - Resposta: Retorna uma mensagem informando que o livro foi substituído.
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/2
-  - Corpo da Requisição: ![Corpo da Requisição](assets/PUT%20-%20Substituir%20Livro%20-%20Corpo%20da%20Requisição.png)
-  - Resposta: ![Resposta](assets/PUT%20-%20Substituir%20Livro%20-%20Resposta.png)
+  - Corpo da Requisição:
+    
+    ![Corpo da Requisição](assets/PUT%20-%20Substituir%20Livro%20-%20Corpo%20da%20Requisição.png)
+  - Resposta:
+    
+    ![Resposta](assets/PUT%20-%20Substituir%20Livro%20-%20Resposta.png)
 
 #### Alterar Parcialmente um Livro Existente
 - Método: PATCH
@@ -141,8 +146,12 @@ $ npm run dev
 - Resposta: Retorna uma mensagem informando que o livro foi alterado
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/1
-  - Corpo da Requisição: ![Corpo da Requisição](assets/PATCH%20-%20Alterar%20Livro%20-%20Corpo%20da%20Requisição.png)
-  - Resposta: ![Resposta](assets/PATCH%20-%20Alterar%20Livro%20-%20Resposta.png)
+  - Corpo da Requisição:
+    
+    ![Corpo da Requisição](assets/PATCH%20-%20Alterar%20Livro%20-%20Corpo%20da%20Requisição.png)
+  - Resposta:
+    
+    ![Resposta](assets/PATCH%20-%20Alterar%20Livro%20-%20Resposta.png)
 
 #### Remover um Livro
 - Método: DELETE
@@ -150,9 +159,11 @@ $ npm run dev
 - Resposta: Retorna uma mensagem informando que o livro foi removido
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/1
-  - Resposta: ![Resposta](assets/DELETE%20-%20Remover%20Livro%20-%20Resposta.png)
+  - Resposta:
+    
+    ![Resposta](assets/DELETE%20-%20Remover%20Livro%20-%20Resposta.png)
 
-
+---
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -176,7 +187,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ---
 
