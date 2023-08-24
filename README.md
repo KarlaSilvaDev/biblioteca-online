@@ -103,50 +103,54 @@ $ npm run dev
 - Endpoint: '/livros'
 - Resposta: Listagem da coleção completa de livros
 - Exemplo:
-  - URL Completa:
-  - Resposta:
+  - URL Completa: http://localhost:3000/livros
+  - Resposta: ![Resposta](assets/GET%20-%20Listar%20Livros%20-%20Resposta.png)
     
 #### Consultar um Livro através do ID
 - Método: GET
 - Endpoint: '/livros/:id'
 - Resposta: Retorna o objeto livro que corresponde ao id fornecido
 - Exemplo:
-  - URL Completa: http://localhost:3000/1
-  - Resposta:
+  - URL Completa: http://localhost:3000/livros/2
+  - Resposta: ![Resposta](assets/GET%20-%20Consultar%20Livro%20por%20ID%20-%20Resposta.png)
  
 #### Adicionar um Novo Livro
 - Método: POST
 - Endpoint: '/livros'
-- Resposta: Não retorna nenhum conteúdo, apenas adiciona o livro à coleção e retorna status HTTP 201 (Created)
+- Corpo da Requisição: Objeto JSON contendo todas as propriedades da entidade livro a ser adicionada à coleção e os seus respectivos valores
+- Resposta: Retorna o objeto livro criado.
 - Exemplo:
   - URL Completa: http://localhost:3000/livros
-  - Resposta:
+  - Corpo da Requisição: ![Corpo da Requisição](assets/POST%20-%20Adicionar%20Livro%20-%20Corpo%20da%20Requisição.png)
+  - Resposta: ![Resposta](assets/POST%20-%20Adicionar%20Livro%20-%20Resposta.png)
  
 #### Substituir um Livro Existente
 - Método: PUT
 - Endpoint: '/livros/:id'
 - Corpo da Requisição: Objeto JSON contendo todas as propriedades do objeto livro e seus novos valores
-- Resposta: Não retorna nenhum conteúdo, apenas substitui os dados do livro especificado e retorna status HTTP 200 (OK)
+- Resposta: Retorna uma mensagem informando que o livro foi substituído.
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/2
-  - Resposta:
+  - Corpo da Requisição: ![Corpo da Requisição](assets/PUT%20-%20Substituir%20Livro%20-%20Corpo%20da%20Requisição.png)
+  - Resposta: ![Resposta](assets/PUT%20-%20Substituir%20Livro%20-%20Resposta.png)
 
 #### Alterar Parcialmente um Livro Existente
 - Método: PATCH
 - Endpoint: '/livros/:id'
 - Corpo da Requisição: Objeto JSON contendo as propriedades a serem alteradas e seus novos valores
-- Resposta: Não retorna nenhum conteúdo, apenas altera os valores das propriedades desejadas do livro especificado e retorna status HTTP 200 (OK)
+- Resposta: Retorna uma mensagem informando que o livro foi alterado
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/1
-  - Resposta:
+  - Corpo da Requisição: ![Corpo da Requisição](assets/PATCH%20-%20Alterar%20Livro%20-%20Corpo%20da%20Requisição.png)
+  - Resposta: ![Resposta](assets/PATCH%20-%20Alterar%20Livro%20-%20Resposta.png)
 
 #### Remover um Livro
 - Método: DELETE
 - Endpoint: '/livros/:id'
-- Resposta: Não retorna nenhum conteúdo, apenas remove o livro da coleção e retorna status HTTP 200 (OK)
+- Resposta: Retorna uma mensagem informando que o livro foi removido
 - Exemplo:
   - URL Completa: http://localhost:3000/livros/1
-  - Resposta:
+  - Resposta: ![Resposta](assets/DELETE%20-%20Remover%20Livro%20-%20Resposta.png)
 
 
 ## 🛠 Tecnologias
