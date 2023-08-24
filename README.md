@@ -39,7 +39,7 @@
 ---
 ## 💻 Sobre o projeto
 
-O projeto Biblioteca Online foi desenvolvido após a aula de API REST do curso de Javascript com foco em backend da [Cubos Academy](https://cubos.academy/).
+O projeto Biblioteca Online foi desenvolvido após a aula de API REST do curso de Javascript com foco em backend da [Cubos Academy](https://cubos.academy/). A aplicação fornece um conjunto de funcionalidades para gerenciar uma coleção de livros, permitindo consultas, cadastros, substituições, alterações e remoções.
 
 ---
 ## ⚙ Funcionalidades
