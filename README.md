@@ -25,7 +25,7 @@
 </h4>
 
 <p align="center">
-	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
+	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-CONCLUÍDO-green">
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@
  <a href="#-funcionalidades">Funcionalidades</a> •
 <a href="#-entidade">Entidade</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-tecnologias">Tecnologias</a>
 </p>
 
 ---
@@ -42,7 +42,7 @@
 O projeto Biblioteca Online foi desenvolvido após a aula de API REST do curso de Javascript com foco em backend da [Cubos Academy](https://cubos.academy/).
 
 ---
-## ⚙️ Funcionalidades
+## ⚙ Funcionalidades
 
 - [x] Consultar Coleção de Livros
 - [x] Consultar um Livro através do ID
@@ -57,7 +57,7 @@ O projeto Biblioteca Online foi desenvolvido após a aula de API REST do curso d
       - Propriedades: id, titulo, autor, ano e numPaginas
 
 ---
-## 🛣️ Como executar o projeto
+## 🛣 Como executar o projeto
 
 Este projeto consiste apenas no Backende e não trabalha com banco de Dados no momento.
 
